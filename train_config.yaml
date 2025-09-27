@@ -1,4 +1,4 @@
-# Paths configuration
+# Paths configuration below
 paths:
   data_dir: "/scratch/data/m23csa016/meesho_data"
   train_csv: "train.csv"
