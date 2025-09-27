@@ -1,35 +1,4 @@
-# Meesho Data Challenge Repository
 
-## Overview
-
-This repository contains the implementation for the Meesho Data Challenge. The codebase includes training pipelines with validation capabilities and inference scripts for model deployment. For a detailed report check [here](./Meesho_Data_Challenge_2024_NeuralNinjas_Report.pdf).
-
-## Collaborators
-
-- [Alli Khadga Jyoth](https://www.linkedin.com/in/khadga-a/)
-- [Kushal Agrawal](https://www.linkedin.com/in/kushal-agrawal-36a387168/)
-- [Nachiketa Purohit](https://www.linkedin.com/in/nachiketa-purohit-2409551b1/)
-- [Ritu Singh](https://www.linkedin.com/in/ritusingh46/)
-
-## Repository Structure
-
-The repository consists of three main Python scripts:
-
-1. `train_with_val.py`: Training script with validation
-
-   - Implements a 90:10 train-validation split
-   - Provides validation metrics during training
-   - Useful for model development and hyperparameter tuning
-2. `train.py`: Full dataset training script
-
-   - Trains the model on the complete dataset
-   - Uses the same architecture as `train_with_val.py`
-   - Recommended for final model training before deployment
-3. `inference.py`: Model inference script
-
-   - Handles prediction on test data
-   - Supports batch processing
-   - Generates submission-ready output
 
 ## Getting Started
 
@@ -67,7 +36,7 @@ This will:
 Use this for final model training:
 
 ```bash
-python train.py
+python main.py
 ```
 
 This will:
@@ -158,21 +127,4 @@ Please refer to the table below for the leaderboard results.
 | **Ensemble Based**                                     | ViT-H/14-quickgelu + Coca                       | 0.804                  | 0.801                   |
 |                                                              | ConvNext-XXLarge + ViT-H/14-quickgelu           | **0.807**        | **0.802**         |
 
-## License
 
-[MIT](LICENSE)
-
-## Contributing
-
-Feel free to:
-
-- Open issues for bugs or enhancement requests
-- Submit pull requests with improvements
-- Share your experimental results
-
-## Acknowledgements
-
-We would like to extend our sincere gratitude to the following organizations for their support:
-
-- **Meesho**: For hosting the competition and providing a platform for us to showcase our work.
-- **CODS-COMAD**: For organizing the competition and enabling collaboration and innovation in the field of data science and machine learning.
