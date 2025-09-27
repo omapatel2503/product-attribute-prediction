@@ -49,9 +49,9 @@ This will:
 
 #### Load Model Checkpoint
 
-Download the pre-trained model checkpoint from the following link:
-[ViT-H14-quickgelu Checkpoint File](https://www.kaggle.com/models/naconda2611/vit-h-14-quickgelu-fulltrain-e4)
-[convnext-xxlarge Checkpoint File](https://www.kaggle.com/models/kushal1506/openclip-convnext-xxlarge-epoch-4)
+Download the pre-trained model :
+[ViT-H14-quickgelu Checkpoint File]
+[convnext-xxlarge Checkpoint File]
 
 #### To run inference on test data:
 
@@ -76,11 +76,7 @@ python inference.py \
 - `batch_size`: Number of images to process simultaneously
 - `cache_dir`: Directory for storing temporary files
 
-## Running the Code
 
-To run the full training and inference pipeline, you can use the provided notebook:
-
-- **[Train and Inference Notebook](https://github.com/nachiketashunya/Meesho-Data-Challenge-2024/blob/main/meesho-final-code.ipynb)**: This notebook contains the complete workflow for training the model and performing inference.
 
 ## Model Architecture
 
