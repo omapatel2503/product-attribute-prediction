@@ -78,17 +78,7 @@ python inference.py \
 
 
 
-## Model Architecture
 
-<img src="assets/training_pipeline.jpg" alt="Training Pipeline" >
-<div style="display: flex; align-items: flex-start;">
-  <img src="assets/inference_pipeline.jpg" alt="Inference Pipeline" width="400" style="margin-right: 15px;">
-  <p>
-    Our final model is a weighted ensemble of two cutting-edge architectures: ViT-H/14-quickgelu and
-    ConvNext-XXLarge. The predictions from these models were combined using a weighted averaging
-    mechanism to optimize overall performance. Details of architecture can be viewed from the table below.
-  </p>
-</div>
 
 
 
